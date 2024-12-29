@@ -26,3 +26,7 @@ jobs:
         path: |
           .bin/parkrun-events
           .bin/parkrun-milestones
+          .bin/parkrun-people
+          .bin/parkrun-runstats
+          .bin/parkrun-webgen
+          .bin/parkrun-year
