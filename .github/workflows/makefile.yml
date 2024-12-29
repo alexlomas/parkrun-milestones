@@ -23,5 +23,6 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: Windows
-        path: .bin/parkrun-milestones
-        path: .bin/parkrun-events
+        path: |
+          .bin/parkrun-events
+          .bin/parkrun-milestones
