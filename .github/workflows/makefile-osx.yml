@@ -1,0 +1,32 @@
+name: build-go-osx-binary
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  release:
+    types: [created]
+
+
+jobs:
+  build:
+  
+    runs-on: osx-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies and build
+      run: make
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: OSX
+        path: |
+          .bin/parkrun-events
+          .bin/parkrun-milestones
+          .bin/parkrun-people
+          .bin/parkrun-runstats
+          .bin/parkrun-webgen
+          .bin/parkrun-year
