@@ -1,4 +1,4 @@
-name: build-go-win-binary
+  name: build-go-win-binary
 
 on:
   push:
@@ -21,6 +21,6 @@ jobs:
       run: make
 
     - uses: actions/upload-artifact@v4
-        with:
-          name: windows-binaries
-          path: .bin/
+  with:
+    name: windows-binaries
+    path: .bin/
