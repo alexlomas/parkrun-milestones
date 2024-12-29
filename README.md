@@ -2,7 +2,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/flopp/parkrun-milestones)](https://goreportcard.com/report/flopp/parkrun-milestones)
 [![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/flopp/parkrun-milestones/)
 
-# parkrun-milestones
+# Fork of parkrun-milestones
+Fork from https://github.com/flopp/parkrun-milestones to include Github automated build actions and releases.
 
 Try to determine milestone candidates to the next run at a parkrun event.
 
