@@ -2,10 +2,10 @@ module github.com/flopp/parkrun-milestones
 
 go 1.22
 
-toolchain go1.23.4
+toolchain go1.23.5
 
 require (
-	github.com/flopp/go-parkrunparser v0.0.0-20241227063245-658cec73cb04
+	github.com/flopp/go-parkrunparser v0.0.0-20241230154122-79943bd455bb
 	github.com/jedib0t/go-pretty/v6 v6.6.5
 )
 
